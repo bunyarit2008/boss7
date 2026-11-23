@@ -5,17 +5,17 @@ const products = [
   {
     name: 'ใบกระท่อมสด',
     description: 'ข้อมูลสินค้าใบกระท่อมสด',
-    image: 'tata.jpg'
+    image: 'https://filebroker-cdn.lazada.co.th/kf/S87e43f136f604e2e8716383c02145fb3c.jpg'
   },
   {
     name: 'ใบกระท่อมคัดพิเศษ',
     description: 'ข้อมูลสินค้าใบกระท่อมคัดพิเศษ',
-    image: 'https://placehold.co/400x250?text=Product+2'
+    image: 'https://filebroker-cdn.lazada.co.th/kf/Se2d065c52f8c4b7294263424286463a1y.jpg'
   },
   {
     name: 'ใบกระท่อมบรรจุแพ็ก',
     description: 'ข้อมูลสินค้าใบกระท่อมบรรจุแพ็ก',
-    image: 'https://placehold.co/400x250?text=Product+3'
+    image: 'https://images.topnews.co.th/2021/10/396880-768x576.jpg?x-image-process=style/webp'
   }
 ];
 
