@@ -1,13 +1,65 @@
 
-let count = 0;
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boss Kratom Shop</title>
+</head>
+<body class="bg-green-50 text-gray-800">
 
-function addCart(product) {
-    count++;
+  <header class="bg-green-800 text-white text-center py-10">
+    <h1 class="text-3xl font-bold">🌿 Boss Kratom Shop</h1>
+    <p class="mt-2">ร้านใบกระท่อม</p>
+  </header>
 
-    document.getElementById("cart").innerText =
-        "สินค้าที่เลือก: " + count + " รายการ";
+  <nav class="bg-green-900 text-white p-4 text-center space-x-6">
+    <a href="#home" class="hover:text-green-300">หน้าแรก</a>
+    <a href="#products" class="hover:text-green-300">สินค้า</a>
+    <a href="#contact" class="hover:text-green-300">ติดต่อ</a>
+  </nav>
 
-    alert("คุณเลือก " + product + " แล้ว");
-}
+  <main id="home" class="max-w-5xl mx-auto px-5 py-10">
 
-window.addCart = addCart;
+    <section class="text-center mb-12">
+      <h2 class="text-2xl font-bold text-green-800">
+        ยินดีต้อนรับสู่ร้าน Boss
+      </h2>
+      <p class="mt-3 text-gray-600">
+        เว็บไซต์แนะนำสินค้าและข้อมูลร้านค้า
+      </p>
+    </section>
+
+    <section id="products">
+      <h2 class="text-2xl font-bold text-center text-green-800 mb-8">
+        รายการสินค้า
+      </h2>
+
+      <div id="product-list"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      </div>
+    </section>
+
+    <section id="contact"
+      class="bg-white rounded-xl shadow p-6 mt-12 text-center">
+      <h2 class="text-2xl font-bold text-green-800 mb-4">
+        ติดต่อร้านค้า
+      </h2>
+      <p>ชื่อร้าน: Boss Kratom Shop</p>
+      <p>โทรศัพท์: 08X-XXX-XXXX</p>
+      <p>Facebook: Boss Kratom Shop</p>
+    </section>
+
+    <p class="text-center text-sm text-gray-500 mt-8">
+      เว็บไซต์ตัวอย่าง โปรดตรวจสอบและปฏิบัติตามกฎหมายที่เกี่ยวข้อง
+    </p>
+
+  </main>
+
+  <footer class="bg-green-900 text-white text-center p-5">
+    © 2026 Boss Kratom Shop
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
