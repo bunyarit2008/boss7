@@ -5,7 +5,7 @@ const products = [
   {
     name: 'ใบกระท่อมสด',
     description: 'ข้อมูลสินค้าใบกระท่อมสด',
-    image: 'https://placehold.co/400x250?text=Product+1'
+    image: 'tata.jpg'
   },
   {
     name: 'ใบกระท่อมคัดพิเศษ',
